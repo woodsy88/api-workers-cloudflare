@@ -1,3 +1,6 @@
+# Apps using this
+- aw-next-app
+
 # OpenAI API Cloudflare Worker
 
 This project is a Cloudflare Worker that integrates with the OpenAI API. It serves as a backend for handling OpenAI API requests.
@@ -9,6 +12,9 @@ note: need to point your frontend endpoints at the dev server: http://localhost:
 
 ## Install OpenAI in your Worker project
 `npm install openai`
+
+## Create new work
+npm create cloudflare@latest
 
 ## Save API key to your Workers environment
 set the OPENAI_API_KEY environment variable
